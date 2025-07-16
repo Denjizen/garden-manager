@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  base: 'https://github.com/Denjizen/garden-manager.git', // <-- set this to your GitHub repo name
   plugins: [
     react(),
     VitePWA({
@@ -12,7 +13,7 @@ export default defineConfig({
       manifest: {
         name: 'My Garden App',
         short_name: 'GardenApp',
-        start_url: '/',
+        start_url: '/gardening-app/',  // also update start_url for correct PWA routing
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#4CAF50',
