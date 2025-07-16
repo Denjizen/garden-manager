@@ -1,0 +1,32 @@
+.crop-selector-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.styled-dropdown {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.plant-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #7bbf6a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  transition: background-color 0.2s;
+}
+
+.plant-button:hover {
+  background-color: #67a85a;
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.top-nav {
+  background-color: #d4edc4; /* light green */
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.top-nav button {
+  background: none;
+  border: none;
+  color: #27632a; /* dark green */
+  font-size: 18px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.top-nav button:hover,
+.top-nav button:focus {
+  background-color: #b3d17a; /* slightly darker green on hover */
+  outline: none;
+}
+
+main {
+  padding: 20px 0;
+}

@@ -1,0 +1,8 @@
+.crop-detail-card {
+  background: #fefefe;
+  padding: 24px 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  color: #222;
+}

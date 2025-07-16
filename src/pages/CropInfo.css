@@ -1,0 +1,21 @@
+/* src/pages/CropInfo.css */
+
+.crop-info-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.crop-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 2rem;
+}
+
+.crop-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
