@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://github.com/Denjizen/garden-manager.git/sw.js', { scope: 'https://github.com/Denjizen/garden-manager.git/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/garden-manager/sw.js', { scope: '/garden-manager/' })})}
