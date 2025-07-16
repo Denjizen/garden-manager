@@ -1,10 +1,9 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/Garden-Manager/', // ← ADD THIS LINE
+  base: '/garden-manager/', // ✅ Correct base path
   plugins: [
     react(),
     VitePWA({
@@ -13,7 +12,7 @@ export default defineConfig({
       manifest: {
         name: 'My Garden App',
         short_name: 'GardenApp',
-        start_url: '/Garden-Manager/', // ← Optional, matches base
+        start_url: '/garden-manager/', // ✅ Correct start URL
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#4CAF50',
